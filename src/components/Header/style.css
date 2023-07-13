@@ -1,0 +1,32 @@
+@keyframes menu-slide-in {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-menu-slide-in {
+  animation-name: menu-slide-in;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
+}
+@keyframes menu-slide-out {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animate-menu-slide-out {
+  animation-name: menu-slide-in;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
+}
